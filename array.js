@@ -37,7 +37,7 @@ console.log(a);
 a.push(90,"angular",true)
 console.log(a);
 
-//!Unshit():-Which is used to add more than one elements at the begining of the array.
+//!Unshift():-Which is used to add more than one elements at the begining of the array.
 
 let x5=[21,33,44,55,66]
 console.log(x5);
