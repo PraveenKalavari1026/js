@@ -22,3 +22,24 @@ console.log(food)
 
 var veg=new Array("Samosa","Pav bhaji","Vadapav","Lemon rice","Pani puri")
 console.log(veg);
+//!Concat():-It returns a new array object that contains two are more merged arrays.
+var x2=[10,20,30,40,50]
+console.log(x2);
+var x3=[21,"js",true]
+console.log(x3);
+var x4=["React js",22.09]
+console.log(x2.concat(x3,x4));
+
+//!Push:-Which is used to add more than one elements at the end of the array
+
+var a=[10,40,60,80]
+console.log(a);
+a.push(90,"angular",true)
+console.log(a);
+
+//!Unshit():-Which is used to add more than one elements at the begining of the array.
+
+let x5=[21,33,44,55,66]
+console.log(x5);
+x5.unshift(10,7,19)
+console.log(x5);
